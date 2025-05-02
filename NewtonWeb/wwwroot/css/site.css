@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: burlywood;
+    width: min-content;
+    cursor: default;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.block {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}

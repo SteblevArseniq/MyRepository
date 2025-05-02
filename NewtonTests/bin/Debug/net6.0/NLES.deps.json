@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NLES/1.0.0": {
+        "dependencies": {
+          "NewtonLibrary": "1.0.0"
+        },
+        "runtime": {
+          "NLES.dll": {}
+        }
+      },
+      "NewtonLibrary/1.0.0": {
+        "runtime": {
+          "NewtonLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NLES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewtonLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
